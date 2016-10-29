@@ -1,4 +1,9 @@
 #include "hash.h"
 
-int create (TABLE *set, int nsets, int size);
-int insert (int element, int set, TABLE *sets);
+int create ();
+int insert (int element, int set);
+int verify (int element, int set);
+int delete (int element, int set);
+int join (int set_a, int set_b);
+void list (int set);
+void end ();
